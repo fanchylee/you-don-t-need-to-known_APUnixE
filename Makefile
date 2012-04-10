@@ -1,3 +1,5 @@
+16.8:16.8.c stderror.o
+	gcc -o $@ $+
 15.5:15.5.c  stderror.o
 	gcc -o $@ $+
 8.6:8.6.c stderror.o 8.5.o
