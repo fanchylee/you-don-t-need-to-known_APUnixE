@@ -1,3 +1,13 @@
+16.18:16.18.c stderror.o 16.10.o 13.1.o
+	gcc -o $@ $+
+16.16:16.16.c stderror.o 16.10.o 13.1.o
+	gcc -o $@ $+
+16.17:16.17.c stderror.o 16.10.o 13.1.o
+	gcc -o $@ $+
+16.15:16.15.c stderror.o 16.10.o 13.1.o
+	gcc -o $@ $+
+16.14:16.14.c stderror.o 16.9.o
+	gcc -o $@ $+
 10.30:10.30.c stderror.o
 	gcc -o $@ $+
 16.8:16.8.c stderror.o
